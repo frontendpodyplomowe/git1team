@@ -78,4 +78,11 @@
    background: silver;
 }
 
+label {
+   color: blue;
+   font-weight: bold;
+}
 
+input, textarea {
+   background-color: blanchedalmond;
+}
