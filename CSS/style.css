@@ -11,6 +11,9 @@
 }
 .header__h2{
    background: red;
+   color: white;
+   font-size: 40px;
+   font-style: italic;
 }
 
 
