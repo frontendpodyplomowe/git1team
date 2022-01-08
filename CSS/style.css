@@ -53,6 +53,7 @@
    margin: 10px 15px;
    transition: 0.4s;
    list-style-type: none;
+
 }
 
 .navSection1__ul-li:hover{
@@ -63,13 +64,24 @@
 
 .navSection2__ul-li{
    display: inline-block;
-   text-transform: uppercase;
-   color: blue;
+   text-decoration: crimson;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(8, 8, 8);
    padding: 10px 25px;
-   border: 2px solid cadetblue;
    margin: 10px 15px;
    font-size: 20px;
+   border: 3px black solid;
+   background-color: coral;
+   border-radius: 10px;
+   cursor:pointer;
+}
 
+.navSection2__ul-li:hover{
+   background-color: rgb(233, 199, 187);
+}
+
+.navSection2__ul-li:active{
+   background-color: rgb(246, 79, 18);
 }
 
 .footer{
